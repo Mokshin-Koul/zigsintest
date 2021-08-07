@@ -1,0 +1,55 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ul {
+    flex: 0 0 60%;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.2rem;
+    height: 100%;
+}
+
+header img {
+    height: 1.4rem;
+    width: 1.4rem;
+}
+
+Header ul li {
+    cursor: pointer;
+}
+
+.left {
+    flex: 0 0 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.2rem;
+    height: 100%;
+}
+
+.left div,.left span {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.btn button {
+    background-color: inherit;
+    font-size: 1.1rem;
+    border: none;
+    color: white;
+    border-radius: 30px;
+    padding: 0.6rem 1.6rem;
+    background-image: linear-gradient(to right,rgb(250,26,97),rgb(255,136,69));
+}
+
+.login {
+    background-color: inherit;
+    font-size: 1.3rem;
+}

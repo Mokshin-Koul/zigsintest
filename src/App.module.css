@@ -1,0 +1,21 @@
+.app {
+  padding: 0;
+  margin: 0;
+  font-size: 62.5%;
+  box-sizing: border-box;
+  background-image: linear-gradient(to right,rgb(250,26,97),rgb(255,136,69));
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: minmax(6rem,1fr) repeat(10,minmax(min-content,12rem)) minmax(6rem,1fr);
+  grid-template-rows: minmax(5rem,1fr) min-content minmax(5rem,1fr);
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+/* .main {
+  grid-column: 2/12;
+  grid-row: 2/3;
+} */

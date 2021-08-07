@@ -1,0 +1,51 @@
+.upper {
+    grid-row: 2/3;
+    grid-column: 2/6;
+    background-color: white;
+}
+
+.upper p {
+    text-align: center;
+}
+
+.heading {
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+.heading ~ p {
+    font-size: 1.3rem;
+}
+
+.heading ~ p ~ div {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.heading ~ p ~ div button {
+    background-color: white;
+    padding: 0.6rem 1.2rem;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    border: 1px solid #333;
+    margin-bottom: 6rem;
+}
+
+.img {
+    width: 100%;
+}
+
+.lower p {
+    text-align: center;
+}
+
+.heading {
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+.lower {
+    grid-row: 2/3;
+    grid-column: 6/10;
+    background-color: white;
+}
